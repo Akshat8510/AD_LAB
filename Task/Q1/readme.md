@@ -1,6 +1,6 @@
 # Task 1 – Customer Data Preprocessing (Q1)
 
-## Question / Task Description
+## 📌 Question / Task Description
 
 **Task to do**
 
@@ -13,9 +13,31 @@
    - **City**: City of residence (categorical: 'Urban' or 'Rural')  
    - **Subscription Status**: Whether the customer has subscribed to a service (categorical: 'Subscribed' or 'Not Subscribed')  
 
-3. Check for missing values, if yes then handle it (`isna()`, `fillna()`, `dropna()`)  
-4. Encode the categorical data (Gender, City, Subscription Status) using **Label Encoding** or **One-Hot Encoding**  
-5. Perform feature scaling on **Age** and **Income** using **MinMaxScaler**
+3. Check for missing values; if yes then handle it using:
+   - `isna()`  
+   - `fillna()`  
+   - `dropna()`  
+
+4. Encode the categorical data (Gender, City, Subscription Status) using:
+   - **Label Encoding** or  
+   - **One-Hot Encoding**
+
+5. Perform feature scaling on **Age** and **Income** using:
+   - **MinMaxScaler**
+
+---
+
+# Task 2 – Data Loading & Visualization (Q1.2)
+
+## 📌 Question / Task Description
+
+**Task to do**
+
+1. Load a sample dataset using pandas (e.g., Iris dataset or a custom CSV).
+
+   ```python
+   import pandas as pd
+   df = pd.read_csv('file_path.csv')
 
 ---
 
