@@ -8,5 +8,6 @@ Every notebook is structured so even a **complete beginner** can understand the 
 ## 📂 Repository Structure
 
 task/
-├── Answer_Q1.ipynb
+| Answer_Q1.ipynb
+| Hands-On Guide
 
